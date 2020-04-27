@@ -1,14 +1,95 @@
 package com.jetbrains;
 
 public class Dog {
-    public String name = "Ares";
-    public int age =5;
-    public String color="black";
-    public String race ="akita";
-    public double weight = 35.5;
-    public int healthLevel = 10;
-    public int hungerLevel = 10;
-    public int happinessLevel = 10;
+    private String name ;
+    private int age ;
+    private String color;
+    private String race ;
+    private double weight ;
+    private int healthLevel ;
+    private int hungerLevel ;
+    private int happinessLevel ;
+
+     public String getName(){
+         return name;
+     }
+     public void setName(String name){
+         this.name= name ;
+     }
+
+    public int  getAge(){
+        return age;
+    }
+    public void setAge(int  age){
+        this.age= age ;
+    }
+
+    public String getColor(){
+        return color;
+    }
+    public void setColor(String color){
+        this.color= color ;
+    }
+    public String  getRace(){
+        return  race;
+    }
+    public void setRace(String  race){
+        this. race=  race ;
+    }
+
+    public double getWeight(){
+         return weight;
+    }
+
+    public void setWeight(double weight){
+         this.weight=weight;
+    }
+    public int  getHealthLevel(){
+        return healthLevel;
+    }
+    public void setHealthLevel(int  healthLevel){
+        this.healthLevel= healthLevel ;
+    }
+    public int  getHungerLevel(){
+        return hungerLevel;
+    }
+    public void setHungerLevel(int  hungerLevel){
+        this.hungerLevel= hungerLevel ;
+    }
+    public int  getHappinessLevel(){
+        return happinessLevel;
+    }
+    public void setHappinessLevel(int  happinessLevel){
+        this.happinessLevel= happinessLevel ;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     public void eat(){

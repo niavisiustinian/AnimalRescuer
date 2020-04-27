@@ -1,11 +1,34 @@
 package com.jetbrains;
 
 public class Food {
-    public  String name ="Pedigree";
-    public int price=10;
-    public int quantity=5;
-    public int availability=15;
+    private   String name ;
+    private int price;
+    private int quantity;
+    private int availability;
 
 
-
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name= name ;
+    }
+    public int  getPrice(){
+        return price;
+    }
+    public void setPrice(int  price){
+        this.price= price ;
+    }
+    public int  getQuantity(){
+        return quantity;
+    }
+    public void setQuantity(int  quantity){
+        this.quantity= quantity ;
+    }
+    public int  getAvailability(){
+        return availability;
+    }
+    public void setAvailability(int  availability){
+        this.availability= availability ;
+    }
 }

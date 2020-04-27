@@ -2,28 +2,60 @@ package com.jetbrains;
 
 public class Main {
         public static void main(String[] args) {
-            Dog dog = new Dog();
+            Dog ares = new Dog();
+            ares.setName("ares");
+            ares.setAge(1);
+            ares.setColor("white");
+            ares.setRace("akita");
+            ares.setWeight(12);
+            ares.setHappinessLevel(10);
+            ares.setHealthLevel(10);
+            ares.setHungerLevel(10);
+
             Girl girl=new Girl();
+            girl.setName("ana");
+            girl.setMoney(100);
+
             Food food=new Food();
+            food.setName("pedigree");
+            food.setPrice(10);
+            food.setAvailability(100);
+            food.setQuantity(100);
+
             Recreation recreation= new Recreation();
+            recreation.setName("running");
+
             Vet vet= new Vet();
-            System.out.println(dog.name);
-            System.out.println(dog.age);
-            System.out.println(dog.healthLevel);
-            System.out.println(dog.happinessLevel);
-            System.out.println(dog.hungerLevel);
-            System.out.println(dog.color);
-            System.out.println(dog.race);
-            System.out.println(dog.weight);
-            System.out.println(girl.name);
-            System.out.println(girl.money);
-            System.out.println(food.availability);
-            System.out.println(food.name);
-            System.out.println(food.price);
-            System.out.println(food.quantity);
-            System.out.println(recreation.name);
-            System.out.println(vet.name);
-            System.out.println(vet.specialty);
+            vet.setName("ioan");
+            vet.setSpecialty("dogtor");
+
+
+
+            System.out.println(ares.getName());
+            System.out.println(ares.getAge());
+            System.out.println(ares.getColor());
+            System.out.println(ares.getRace());
+            System.out.println(ares.getWeight());
+            System.out.println(ares.getHappinessLevel());
+            System.out.println(ares.getHealthLevel());
+            System.out.println(ares.getHungerLevel());
+
+            System.out.println(girl.getName());
+            System.out.println(girl.getMoney());
+
+            System.out.println(food.getName());
+            System.out.println(food.getPrice());
+            System.out.println(food.getAvailability());
+            System.out.println(food.getQuantity());
+
+            System.out.println(recreation.getName());
+
+            System.out.println(vet.getName());
+            System.out.println(vet.getSpecialty());
+
+
+
+
         }
 
 
