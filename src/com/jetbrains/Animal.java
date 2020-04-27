@@ -1,6 +1,6 @@
 package com.jetbrains;
 
-public class Dog {
+public class Animal {
     private String name ;
     private int age ;
     private String color;

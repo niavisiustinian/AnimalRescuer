@@ -2,15 +2,15 @@ package com.jetbrains;
 
 public class Main {
         public static void main(String[] args) {
-            Dog ares = new Dog();
-            ares.setName("ares");
-            ares.setAge(1);
-            ares.setColor("white");
-            ares.setRace("akita");
-            ares.setWeight(12);
-            ares.setHappinessLevel(10);
-            ares.setHealthLevel(10);
-            ares.setHungerLevel(10);
+            Animal dog = new Animal();
+            dog.setName("dog");
+            dog.setAge(1);
+            dog.setColor("white");
+            dog.setRace("akita");
+            dog.setWeight(12);
+            dog.setHappinessLevel(10);
+            dog.setHealthLevel(10);
+            dog.setHungerLevel(10);
 
             Girl girl=new Girl();
             girl.setName("ana");
@@ -31,14 +31,14 @@ public class Main {
 
 
 
-            System.out.println(ares.getName());
-            System.out.println(ares.getAge());
-            System.out.println(ares.getColor());
-            System.out.println(ares.getRace());
-            System.out.println(ares.getWeight());
-            System.out.println(ares.getHappinessLevel());
-            System.out.println(ares.getHealthLevel());
-            System.out.println(ares.getHungerLevel());
+            System.out.println(dog.getName());
+            System.out.println(dog.getAge());
+            System.out.println(dog.getColor());
+            System.out.println(dog.getRace());
+            System.out.println(dog.getWeight());
+            System.out.println(dog.getHappinessLevel());
+            System.out.println(dog.getHealthLevel());
+            System.out.println(dog.getHungerLevel());
 
             System.out.println(girl.getName());
             System.out.println(girl.getMoney());
