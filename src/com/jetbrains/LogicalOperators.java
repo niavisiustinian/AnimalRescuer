@@ -56,39 +56,65 @@ public class LogicalOperators {
     // unde x trebuie sa reprezinte numarul apasat. Pentru exemplul de fata sa nu se foloseasca concatenarea stringului
     // "The number is:" cu numarul de la parametru, ci sa se scrie intreg textul cu tot cu numar pentru fiecare caz din Switch-Case.
     // Apelati metoda in main() pentru a verifica daca functioneaza.
-    public static  String exercitu8(int numar){
+    public static  void exercitu8(int numar){
         switch (numar){
             case 1:
-                return "the number is 1";
+                System.out.println("the number is 1");
+                break;
 
             case 2:
-                return "the number is 2";
+                System.out.println("the number is 2");
+                break;
 
             case 3:
-                return "the number is 3";
+                System.out.println("the number is 3");
+                break;
+            case 4:
+                System.out.println(" the number is 4");
+                break;
+            case 5:
+                System.out.println(" the number is 5");
+                break;
+            case 6:
+                System.out.println(" the number is 6");
+                break;
+            case 7:
+                System.out.println(" the number is 7");
+                break;
+            case 8:
+                System.out.println(" the number is 8");
+                break;
+            case 9:
+                System.out.println(" the number is 9");
+                break;
+            case 0:
+                System.out.println(" the number is 0");
+                break;
 
-            default: return "none of the above";
+                default:
+                System.out.println("the number is <0 or >9 ");
         }
+
     }
     //9. Creati o metoda care sa se numeasca isNumberEven.
     // Metoda trebuie sa primeasca ca parametru un numar, si sa returneze adevarat sau fals.
     // Daca numarul e par sa returneze true iar daca e impar sa returnese false. Apelati metoda in main() pentru a verifica daca functioneaza.
-    public static  String isNumberEven (int numar) {
+    public static  boolean isNumberEven (int numar) {
         if (numar % 2 == 0) {
-            return  "true";
+            return  true;
         } else {
-            return "false";
+            return false;
         }
     }
     //10. Creati o metoda care sa se numeasca isEligibleToVote.
     // Metoda sa primeasca ca si parametru un numar, care sa reprezinte varsta,
     // iar metoda sa iti zica daca daca persoana are drept de vot. Daca varsta e peste 18, sa se returneze true iar daca nu
     // , sa returneze false. Apelati metoda in main() pentru a verifica daca functioneaza.
-    public static String isEligibleToVote(int numar){
+    public static boolean isEligibleToVote(int numar){
         if(numar >= 18){
-            return "true";
+            return true;
         }else{
-            return "false";
+            return false;
         }
     }
     //11. Creati o metoda care sa primeasca 3 numere ca si parametrii

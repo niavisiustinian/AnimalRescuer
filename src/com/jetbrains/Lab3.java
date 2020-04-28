@@ -17,7 +17,7 @@ public class Lab3 {
         System.out.println(op.exercitiu5 ("FastTrackIT" , 3 ));
         System.out.println(op.exercitiu6(5) );
         System.out.println( op.exercitiu7(5) );
-        System.out.println( op.exercitu8(3));
+        op.exercitu8(2);
         System.out.println( op.isNumberEven(3));
         System.out.println( op.isEligibleToVote(18));
         System.out.println( op.exercitiu11(18,12,14));
