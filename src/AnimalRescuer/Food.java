@@ -1,4 +1,4 @@
-package com.jetbrains;
+package AnimalRescuer;
 
 public class Food {
     private   String name ;
