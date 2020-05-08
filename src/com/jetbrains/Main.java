@@ -26,7 +26,7 @@ public class Main {
     op.numereImparePanaLa100(2);
     op.sumTo100(99);
     System.out.println(op.sumAverageTo100(99));
-    op.numere(7);
+    
 
 
 
