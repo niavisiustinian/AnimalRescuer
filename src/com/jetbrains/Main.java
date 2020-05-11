@@ -26,7 +26,16 @@ public class Main {
     op.numereImparePanaLa100(2);
     op.sumTo100(99);
     System.out.println(op.sumAverageTo100(99));
-    
+    op.printTo100While(99);
+    op.printToMinus100While(-99);
+    op.printFromXToYWhile(1,3);
+    op.countFromSmallToBigWhile(5,1);
+    op.numereParePanaLa100While(90);
+    op.numereImparePanaLa100While(1);
+    System.out.println(op.sumAverageWhile());
+    System.out.println(op.averageDivBy7FromXToY(7,21));
+    op.fibonacci();
+
 
 
 
