@@ -1,7 +1,7 @@
 package AnimalRescuer;
 
 public class Main {public static void main(String[] args) {
-    Animal dog = new Animal();
+   Dog dog = new Dog();
     dog.setName("dog");
     dog.setAge(1);
     dog.setColor("white");
@@ -10,6 +10,17 @@ public class Main {public static void main(String[] args) {
     dog.setHappinessLevel(10);
     dog.setHealthLevel(10);
     dog.setHungerLevel(10);
+
+    Cat pisica= new Cat();
+    pisica.setName("miau");
+    pisica.setAge(2);
+
+    Food purina= new CatFood();
+    purina.setName("purina");
+
+    Food pedigree= new DogFood();
+    pedigree.setName("pedigree");
+
 
     Girl girl=new Girl();
     girl.setName("ana");

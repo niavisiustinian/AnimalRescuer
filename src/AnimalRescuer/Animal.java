@@ -10,12 +10,12 @@ public class Animal {
     private int hungerLevel ;
     private int happinessLevel ;
 
-     public String getName(){
-         return name;
-     }
-     public void setName(String name){
-         this.name= name ;
-     }
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name= name ;
+    }
 
     public int  getAge(){
         return age;
@@ -38,11 +38,11 @@ public class Animal {
     }
 
     public double getWeight(){
-         return weight;
+        return weight;
     }
 
     public void setWeight(double weight){
-         this.weight=weight;
+        this.weight=weight;
     }
     public int  getHealthLevel(){
         return healthLevel;
@@ -56,52 +56,12 @@ public class Animal {
     public void setHungerLevel(int  hungerLevel){
         this.hungerLevel= hungerLevel ;
     }
-    public int  getHappinessLevel(){
-        return happinessLevel;
-    }
+    public int  getHappinessLevel(){ return happinessLevel; }
     public void setHappinessLevel(int  happinessLevel){
         this.happinessLevel= happinessLevel ;
     }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    public void eat(){
-        System.out.print("Eating");}
-    public void sleep (){
-        System.out.print("Sleeping");
-    }
-    public void run(){
-        System.out.print("Running");
-    }
-    public void sit(){
-        System.out.print("Sitting");
-    }
 
 }
