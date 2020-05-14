@@ -12,7 +12,7 @@ public class Main {public static void main(String[] args) {
     dog.setHungerLevel(10);
 
     Cat pisica= new Cat();
-    pisica.setName("miau");
+    pisica.setName("pisica1");
     pisica.setAge(2);
 
     Food purina= new CatFood();
@@ -22,9 +22,9 @@ public class Main {public static void main(String[] args) {
     pedigree.setName("pedigree");
 
 
-    Girl girl=new Girl();
-    girl.setName("ana");
-    girl.setMoney(100);
+    Rescuer rescuer =new Rescuer();
+    rescuer.setName("ana");
+    rescuer.setMoney(100);
 
     Food food=new Food();
     food.setName("pedigree");
@@ -35,9 +35,9 @@ public class Main {public static void main(String[] args) {
     Recreation recreation= new Recreation();
     recreation.setName("running");
 
-    Vet vet= new Vet();
-    vet.setName("ioan");
-    vet.setSpecialty("dogtor");
+    MedicalStaff medicalStaff = new MedicalStaff();
+    medicalStaff.setName("ioan");
+    medicalStaff.setSpecialty("dogtor");
 
 
 
@@ -50,8 +50,8 @@ public class Main {public static void main(String[] args) {
     System.out.println(dog.getHealthLevel());
     System.out.println(dog.getHungerLevel());
 
-    System.out.println(girl.getName());
-    System.out.println(girl.getMoney());
+    System.out.println(rescuer.getName());
+    System.out.println(rescuer.getMoney());
 
     System.out.println(food.getName());
     System.out.println(food.getPrice());
@@ -60,8 +60,8 @@ public class Main {public static void main(String[] args) {
 
     System.out.println(recreation.getName());
 
-    System.out.println(vet.getName());
-    System.out.println(vet.getSpecialty());
+    System.out.println(medicalStaff.getName());
+    System.out.println(medicalStaff.getSpecialty());
 
 
 

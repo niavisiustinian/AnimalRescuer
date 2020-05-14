@@ -179,16 +179,16 @@ public class LogicalOperators {
       }
       //5. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele pare de la 1 la 100.
 
-    public void numereParePanaLa100(int x){
-
+    public void numereParePanaLa100(){
+        int x;
         for (x = 1; x <= 100; x++) {
             if (x % 2 == 0)
                 System.out.println(x);
             }
         }
     //6.Creati o metoda in clasa LogicalOp care sa afiseze toate numerele impare de la 1 la 100.
-    public void numereImparePanaLa100(int x){
-
+    public void numereImparePanaLa100(){
+        int x;
         for (x = 1; x <= 100; x++) {
             if (x % 2 != 0)
                 System.out.println(x);
@@ -199,12 +199,12 @@ public class LogicalOperators {
     // iar la final sa returneze rezultatul.
     // Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
 
-    public void sumTo100(int numar){
+    public int sumTo100(int numar){
         int sum= 0;
         for (int i = numar;i <=100;i++ ){
             sum +=i;
         }
-        System.out.println(sum);
+        return sum;
     }
     //8. Creati o metoda in clasa LogicalOp care sa primeasca un parametru de tip numar.
     // Metoda sa adune toate numerele pana la 100, pornind de la numarul primit ca si parametru,
@@ -232,6 +232,17 @@ public class LogicalOperators {
     //- prima bucla for se va ocupa de afisarea pe orizontala, si cealalta pe verticala
     //- semnul asterisk (*) se poate afisa sub forma de string
     //Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
+    public void printPattern() {
+
+        for (int j = 7; j >= 1; j--) {
+            String text = "";
+            for (int i = j; i >= 1; i--) {
+                text = text + "*";
+            }
+            System.out.println(text);
+        }
+    }
+
 
 
     //1. Creati o metoda in clasa LogicalOp, care sa primeste un numar ca si parametru.
@@ -358,6 +369,72 @@ public class LogicalOperators {
             numar2=sumaUltimelorDoua;
             i++;
         }
+    }
+    //10. Creati o metoda numita CozaLozaWoza.
+    //Metoda va afisa:
+    //- numerele de la 1 la 110
+    //- 11 numere pe linie
+    //- se va afisa Coza pentru numerele care sunt multiplu de 3 (1 2 Coza 4)
+    //- se va afisa Loza pentru numerele care sunt multiplu de 5 (2 3 4 Loza 6)
+    //- se va afisa Woza pentru numerele care sunt multiplu de 7 (4 5 6 Woza 8)
+    //- se va afisa CozaLoza pentru numerele care sunt multiplu de 3 SI 5
+    //- se va afisa CozaWoza pentru multiplu de 3 SI 7
+    //- se va afisa WozaLoza pentru multiplu de 5 SI 7
+    //- se va afisa CozaLozaWoza pentru multiplu de 3 SI 5 SI 7
+    //Ar trebui sa arate similar:
+    //1 2 Coza 4 Loza Coza Woza 8 Coza Loza 11
+    //Coza 13 Woza CozaLoza 16 17 Coza 19 Loza CozaWoza 22
+    //23 Coza Loza 26 Coza Woza 29 CozaLoza 31 32 Coza
+    public void cozaWozaLoza() {
+
+        int x = 1;
+
+        while (x <= 110) {
+
+            if ((x % 3 == 0) && (x % 5 == 0) && (x % 7 == 0)) {
+
+                System.out.print("CozaLozaWoza");
+
+            } else if ((x % 7 == 0) && (x % 5 == 0)) {
+
+                System.out.print("WozaLoza");
+
+            } else if ((x % 3 == 0) && (x % 5 == 0)) {
+
+                System.out.print("CozaLoza");
+
+            } else if ((x % 3 == 0) && (x % 7 == 0)) {
+
+                System.out.print("CozaWoza");
+
+            } else if (x % 5 == 0) {
+
+                System.out.print("Loza");
+
+            } else if (x % 7 == 0) {
+
+                System.out.print("Woza");
+
+            } else if (x % 3 == 0) {
+
+                System.out.print("Coza");
+
+            } else {
+
+                System.out.print(x +"");
+
+            }
+
+            x++;
+
+            if (x % 11 == 0) {
+
+                System.out.println();
+
+            }
+
+        }
+
     }
 
 

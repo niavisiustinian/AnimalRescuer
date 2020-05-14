@@ -9,6 +9,16 @@ public class Animal {
     private int healthLevel ;
     private int hungerLevel ;
     private int happinessLevel ;
+    public void eat(){System.out.print("Eating");}
+    public void sleep (){
+        System.out.print("Sleeping");
+    }
+    public void run(){
+        System.out.print("Running");
+    }
+    public void sit(){
+        System.out.print("Sitting");
+    }
 
     public String getName(){
         return name;

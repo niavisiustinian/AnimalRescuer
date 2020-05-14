@@ -22,9 +22,9 @@ public class Main {
     op.printToMinus100(1);
     op.printFromXToY(1,5);
     op.countFromSmallToBig(16,8);
-    op.numereParePanaLa100(1);
-    op.numereImparePanaLa100(2);
-    op.sumTo100(99);
+    op.numereParePanaLa100();
+    op.numereImparePanaLa100();
+    System.out.println(op.sumTo100(99));
     System.out.println(op.sumAverageTo100(99));
     op.printTo100While(99);
     op.printToMinus100While(-99);
@@ -35,6 +35,7 @@ public class Main {
     System.out.println(op.sumAverageWhile());
     System.out.println(op.averageDivBy7FromXToY(7,21));
     op.fibonacci();
+    op.cozaWozaLoza();
 
 
 
