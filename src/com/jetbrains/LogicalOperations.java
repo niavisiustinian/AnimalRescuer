@@ -1,6 +1,8 @@
 package com.jetbrains;
 
-public class LogicalOperators {
+public class LogicalOperations {
+   //lab3
+
     public int getHigherNumber(int firstNumber, int secondNumber) {
         if (firstNumber < secondNumber) {
             return secondNumber;
@@ -132,7 +134,7 @@ public class LogicalOperators {
         }
     }
 
-    //lab5
+    //lab4
 
     //1.Creati o metoda in clasa LogicalOp, care sa primeasca un numar ca si parametru.
     // Metoda sa verifice numarul primit, si sa afiseze in consola o numaratoare pana la 100,
@@ -242,7 +244,6 @@ public class LogicalOperators {
             System.out.println(text);
         }
     }
-
 
 
     //1. Creati o metoda in clasa LogicalOp, care sa primeste un numar ca si parametru.
@@ -437,11 +438,33 @@ public class LogicalOperators {
 
     }
 
+    //lab5
+    //2.In clasa LogicalOp, creati o metoda care sa scrie pe un array de 100 de pozitii,
+    // valorile de la 1 la 100. Sa se afiseze progresul in consola pe tot parcursul.
+    // Apelati metoda in main() pentru a verifica daca functioneaza.
 
+    public void myArray100(){
+        int[] myArray=new int[100];
+        for(int i = 0; i<=99;i++) {
+            myArray[i] = i + 1;
+            System.out.println(myArray[i]);
+        }
 
+    }
 
+    //3. Creati o metoda care primeasca un parametru de tip array de numere intregi gol,
+    // si sa il returneze populat cu toate valorile pare de la 1 la 100.
+    // Apelati metoda in main() pentru a verifica daca functioneaza.
+    // Atentie, metoda returneaza un array, deci acesta va trebui surprins si afisat folosind o bucla.
 
-
+    public int[] fillArray( int[]array){
+        int index = 0;
+        for(int i = 2;i <= 100; i=i+2 ){
+            array[index] = i;
+            index ++;
+        }
+        return array;
+    }
 
 
 

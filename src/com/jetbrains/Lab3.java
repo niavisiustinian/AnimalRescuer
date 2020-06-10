@@ -8,7 +8,7 @@ public class Lab3 {
 
 
     public static void main(String[] args) {
-        LogicalOperators op = new LogicalOperators();
+        LogicalOperations op = new LogicalOperations();
 
 
 
