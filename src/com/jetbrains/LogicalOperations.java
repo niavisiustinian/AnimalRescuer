@@ -127,13 +127,13 @@ public class LogicalOperations {
     // si sa returneze cel mai mare numar. Apelati metoda in main() pentru a verifica daca functioneaza.
     public  String exercitiu11(int primulNumar,int alDoileaNumar,int alTreileaNumar){
         if( primulNumar>alDoileaNumar && primulNumar>alTreileaNumar){
-            return primulNumar +" e cel mai mare";
+            return primulNumar +" ";
         }else if( alDoileaNumar>primulNumar && alDoileaNumar>alTreileaNumar){
-            return alDoileaNumar +" e cel mai mare numar";
+            return alDoileaNumar +"";
         }else if (alTreileaNumar>primulNumar && alTreileaNumar>alDoileaNumar ){
-            return alTreileaNumar +" e cel mai mare numar";
+            return alTreileaNumar +" ";
         }else {
-            return "nu se poate ";
+            return "can t be done ";
         }
     }
 
@@ -184,14 +184,15 @@ public class LogicalOperations {
       }
       //5. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele pare de la 1 la 100.
 
-    public void numereParePanaLa100(){
+    public void numereParePanaLa100( ){
         int x;
         for (x = 1; x <= 100; x++) {
             if (x % 2 == 0)
                 System.out.println(x);
             }
         }
-    //6.Creati o metoda in clasa LogicalOp care sa afiseze toate numerele impare de la 1 la 100.
+
+        //6.Creati o metoda in clasa LogicalOp care sa afiseze toate numerele impare de la 1 la 100.
     public void numereImparePanaLa100(){
         int x;
         for (x = 1; x <= 100; x++) {
